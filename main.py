@@ -24,8 +24,3 @@ def create_new_playlist_and_add_songs(user_id, date):
 
 
 create_new_playlist_and_add_songs(user_id, input("date(yyyy-mm-dd): "))
-
-
-
-
-

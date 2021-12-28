@@ -11,5 +11,3 @@ auth_manager = SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=scope)
 token = auth_manager.get_access_token()
 
 spotify = spotipy.Spotify(client_credentials_manager=auth_manager)
-
-print(user_id)
