@@ -11,7 +11,7 @@ def find_songs(title_artist_zip):
             uri_list.append(song_uri)
             print(song_uri)
         except IndexError:
-            pass
+            print("ERROR: Item not found.")
     return uri_list
 
 
